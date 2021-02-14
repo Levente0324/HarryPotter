@@ -1,0 +1,387 @@
+body {
+    background-color: rgb(216, 209, 183);
+}
+
+.div1 {
+    border: 5px solid black;
+    width: 1400px;
+    height: 860px;
+    display: grid;
+    grid-template-columns: 340px 25px 100px 240px 310px 25px 340px;
+    grid-template-rows: 140px 300px 40px 190px 140px 50px;
+}
+
+.div4 {
+    border: 5px solid black;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.div2 {
+    border: 5px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.div3 {
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.div5 {
+    border: 5px solid black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: black;
+    color: rgb(216, 209, 183);
+}
+
+.div6 {
+    border: 5px solid black;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.div7 {
+    border: 5px solid black;
+    grid-column-start: 7;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.div9 {
+    border: 5px solid black;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+
+.div10 {
+    border: 5px solid black;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.div11 {
+    border: 5px solid black;
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.div12 {
+    border: 5px solid black;
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+
+.div13 {
+    border: 5px solid black;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.div14 {
+    border: 5px solid black;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: max-content;
+    width: max-content;
+}
+
+.div15 {
+    border: 5px solid black;
+    grid-column-start: 7;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.roxy {
+    width: 80%;
+}
+
+.div8 {
+    grid-column-end: 8;
+    grid-row-start: 2;
+}
+
+.nev {
+    line-height: 10%;
+    font-variant: small-caps;
+    font-size: 2px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.story {
+    font-family: 'font4';
+    line-height: 60%;
+    font-size: 250%;
+    letter-spacing: 1px;
+    margin-top: 0px;   
+    margin-right: 0px;
+    font-variant: small-caps;
+}
+
+.p1 {
+    font-family: 'font1';
+    font-size: 250%;
+    line-height: 120%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.img7 {
+    height: 130px;
+}
+
+.img2 {
+    width: 85px;
+    margin-top: 35px;
+    float: right;
+    clear: both;
+    margin-right: 10px;
+}
+
+.img1 {
+    float: left;
+    margin-top: 0px;
+    clear: both;
+    width: 85px;
+}
+
+.img4 {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.img6 {
+    height: 190px;
+}
+
+.p9 {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 200px;
+    font-size: 20px;
+    clear: both;
+    font-family: 'font1';
+    float: right;
+}
+
+.ul1 {
+    margin: 0px;
+    padding:  0px;
+    
+ }
+.ul1 li {
+    font-family: 'font1';
+    text-align: center; 
+    display: inline-block;
+    width: 44px;
+ }
+
+.ul2 {
+    padding:  0px;
+    margin: 0px;
+ }
+
+.ul2 li {
+    text-align: center;
+    padding: 5px;
+    font-family: 'font1';
+    list-style-type: none;
+    width: 42px;
+    display: inline-block;
+}
+
+.potter {
+    font-family: Hastings Bold;
+    font-size: 150px;
+    line-height: 110%;
+    margin-left: 10px;
+    font-variant: small-caps;
+    margin-top: 0px;
+}
+
+.img3 {
+    float: right;
+    clear: both;
+}
+
+.p2 {
+    margin-left: 0px;
+    margin-right: 280px;
+    font-family: "font4";
+    line-height: 60px;
+    margin-top: 0px;
+    font-size: 72px;
+    text-align: justify;
+}
+
+.span1 {
+    letter-spacing: 3px;
+}
+
+.sev {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.sev2 {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+}
+
+.p3 {
+    margin-right: 90px;
+    float: right;
+    clear: both;
+    font-family: anton;
+    font-variant: small-caps;
+    margin-left: 0px;
+    margin-bottom: 0%;
+    line-height: 70px;
+    letter-spacing: -5px;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.ex {
+    font-size: 30px;
+    background-color:black;
+    color: rgb(216, 209, 183);
+}
+
+.harry {
+    margin-top: 0px;
+    font-family: Hastings Bold;
+    font-size: 170px;
+    line-height: 40%;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-variant: small-caps;
+}
+
+.p4 {
+    margin-left: 60px;
+    margin-top: 80px;
+    text-align: justify;
+    float: right;
+    clear: both;
+    margin-right: 80px;
+    margin-bottom: 0%;
+}
+
+.img5 {
+    width: 55px;
+}
+
+.span4 {
+    font-family: 'font1';
+    margin-top: 0px;
+    font-variant: small-caps;
+    font-size: 150%;
+    line-height: 15px;
+}
+
+#p5 {
+    margin-left: 10px;
+    margin-right: 80px;
+    text-align: justify;
+    margin-top: 0%;
+}
+
+.span5 {
+    font-family: 'font4';
+    font-size: 235%;
+    line-height: 55%;
+}
+
+.span6 {
+    font-variant: small-caps;
+    margin-top: 0px;
+    line-height: 50%;
+    letter-spacing: 4px;
+    font-family: Hastings Bold;
+    font-size: 50px;
+}
+
+.p6 {
+    text-align: justify;
+    margin-right: 5px;
+    margin-top: 0%;
+    margin-left: 5px;
+}
+
+.p8 {
+    border-top: 3px solid black;
+    font-family: 'font2';
+    margin-left: 8px;
+    margin-right: 8px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+@font-face {
+    font-family: 'font1';
+    src: url('Font/SOR.ttf');
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('Font/V1.ttf');
+}
+      
+@font-face {
+    font-family: 'font3';
+    src: url('Font/MST.ttf');
+}
+
+@font-face {
+    font-family: 'font4';
+    src: url('Font/M1B.ttf');
+}
+
+#p7 {
+    font-size: 38px;
+    font-family: 'font2';
+    margin-top: 20px;
+    margin-bottom: 0%;
+    float: right;
+    clear: both;
+    margin-right: 8px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
